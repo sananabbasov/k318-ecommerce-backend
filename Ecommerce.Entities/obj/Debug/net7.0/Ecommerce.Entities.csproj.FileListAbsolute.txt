@@ -1,0 +1,16 @@
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/bin/Debug/net7.0/Ecommerce.Entities.deps.json
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/bin/Debug/net7.0/Ecommerce.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/bin/Debug/net7.0/Ecommerce.Entities.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/bin/Debug/net7.0/Ecommerce.Core.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/bin/Debug/net7.0/Ecommerce.Core.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.csproj.AssemblyReference.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.AssemblyInfoInputs.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.AssemblyInfo.cs
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.csproj.CoreCompileInputs.cache
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.csproj.CopyComplete
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/refint/Ecommerce.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/ref/Ecommerce.Entities.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/Debug/net7.0/Ecommerce.Entities.sourcelink.json

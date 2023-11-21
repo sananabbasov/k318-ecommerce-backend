@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/Ecommerce.Business.csproj": {}
+  },
+  "projects": {
+    "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/Ecommerce.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/Ecommerce.Business.csproj",
+        "projectName": "Ecommerce.Business",
+        "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/Ecommerce.Business.csproj",
+        "packagesPath": "/Users/sanan/.nuget/packages/",
+        "outputPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj": {
+                "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj"
+              },
+              "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.DataAccess/Ecommerce.DataAccess.csproj": {
+                "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.DataAccess/Ecommerce.DataAccess.csproj"
+              },
+              "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj": {
+                "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj",
+        "projectName": "Ecommerce.Core",
+        "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj",
+        "packagesPath": "/Users/sanan/.nuget/packages/",
+        "outputPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.DataAccess/Ecommerce.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.DataAccess/Ecommerce.DataAccess.csproj",
+        "projectName": "Ecommerce.DataAccess",
+        "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.DataAccess/Ecommerce.DataAccess.csproj",
+        "packagesPath": "/Users/sanan/.nuget/packages/",
+        "outputPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj": {
+                "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj"
+              },
+              "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj": {
+                "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj",
+        "projectName": "Ecommerce.Entities",
+        "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj",
+        "packagesPath": "/Users/sanan/.nuget/packages/",
+        "outputPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj": {
+                "projectPath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Core/Ecommerce.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
