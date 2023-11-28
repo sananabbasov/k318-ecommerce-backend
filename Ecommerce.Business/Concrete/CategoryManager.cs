@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Ecommerce.Business.Abstract;
+using Ecommerce.Core.Utilities.Results.Abstract;
+using Ecommerce.Core.Utilities.Results.Concrete.ErrorResults;
+using Ecommerce.Core.Utilities.Results.Concrete.SuccessResults;
 using Ecommerce.DataAccess.Abstract;
 using Ecommerce.Entities.Concrete;
 using Ecommerce.Entities.Dtos.CategoryDtos;
@@ -21,15 +24,25 @@ public class CategoryManager : ICategoryService
         _mapper = mapper;
     }
 
-    public void CreateCategory(CategoryCreateDto categoryCreate)
+    public IResult CreateCategory(CategoryCreateDto categoryCreate)
     {
-        var map = _mapper.Map<Category>(categoryCreate);
-        _categoryDal.Add(map);
+        try
+        {
+            var map = _mapper.Map<Category>(categoryCreate);
+            map.SeoUrl = "telefonlar";
+            map.CreatedDate = DateTime.Now;
+            _categoryDal.Add(map);
+            return new SuccessResult("Elave olundu");
+        }
+        catch (Exception e)
+        {
+            return new ErrorResult(e.Message.ToString());
+        }
     }
 
 
-    public List<CategoryHomeDto> GetHomeCategories()
+    public IDataResult<List<CategoryHomeDto>> GetHomeCategories()
     {
-        throw new NotImplementedException();
+        return new SuccessDataResult<List<CategoryHomeDto>>(null, "elave olundu");
     }
 }

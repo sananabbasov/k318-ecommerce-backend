@@ -1,6 +1,11 @@
 using AutoMapper;
+using Ecommerce.Business.Abstract;
 using Ecommerce.Business.AutoMapper;
+using Ecommerce.Business.Concrete;
+using Ecommerce.DataAccess.Abstract;
 using Ecommerce.DataAccess.Concrete.EntityFramework;
+using Ecommerce.Business.DependencyResolvers;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,14 +16,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<AppDbContext>();
 
-var mapperConfig = new MapperConfiguration(mc =>
-            {
-                mc.AddProfile(new MappingProfile());
-            });
-IMapper mapper = mapperConfig.CreateMapper();
-builder.Services.AddSingleton(mapper);
+builder.Services.AddBusinesRegistration();
+
 
 var app = builder.Build();
 

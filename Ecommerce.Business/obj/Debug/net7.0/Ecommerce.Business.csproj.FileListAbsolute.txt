@@ -17,3 +17,4 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/obj/Debug/net7.0/refint/Ecommerce.Business.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/obj/Debug/net7.0/Ecommerce.Business.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/obj/Debug/net7.0/ref/Ecommerce.Business.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Business/obj/Debug/net7.0/Ecommerce.Business.sourcelink.json

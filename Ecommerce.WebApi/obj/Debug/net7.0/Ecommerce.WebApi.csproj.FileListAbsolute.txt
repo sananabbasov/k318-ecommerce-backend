@@ -84,3 +84,12 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/obj/Debug/net7.0/Ecommerce.WebApi.pdb
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/obj/Debug/net7.0/Ecommerce.WebApi.genruntimeconfig.cache
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/obj/Debug/net7.0/ref/Ecommerce.WebApi.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/obj/Debug/net7.0/Ecommerce.WebApi.sourcelink.json
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/MassTransit.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/MassTransit.Abstractions.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/MassTransit.RabbitMqTransport.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.WebApi/bin/Debug/net7.0/RabbitMQ.Client.dll
