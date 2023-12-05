@@ -49,7 +49,7 @@ public static class ServiceRegistration
 
                 config.UsingRabbitMq((ctx, cfg) =>
                 {
-                    cfg.Host("amqps://guest:guest:5672");
+                    cfg.Host("amqp://guest:guest@localhost");
                     cfg.Message<SendEmailCommand>(x => x.SetEntityName("SendEmailCommand"));
 
                     cfg.ReceiveEndpoint("send-email-command", c =>

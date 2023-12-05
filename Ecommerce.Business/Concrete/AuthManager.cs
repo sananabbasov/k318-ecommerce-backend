@@ -56,15 +56,14 @@ public class AuthManager : IAuthService
         mapp.DeactiveTime = DateTime.Now;
         mapp.ConfirmationToken = Guid.NewGuid().ToString();
 
-        SendEmailCommand sendEmail = new()
-        {
-            Email = "ehmed@compar.edu.az",
-            Token = Guid.NewGuid().ToString(),
-            FirstName = "Ehmed",
-            LastName = "Ehmedli"
-        };
+        SendEmailCommand sendEmail = new();
+        sendEmail.Email = registerDto.Email;
+        sendEmail.FirstName = "Salam";
+        sendEmail.LastName = "Salam";
+        sendEmail.Token = Guid.NewGuid().ToString();
         _publishEndpoint.Publish<SendEmailCommand>(sendEmail);
-        _userDal.Add(mapp);
+
+        // _userDal.Add(mapp);
         return new SuccessResult();
     }
 
