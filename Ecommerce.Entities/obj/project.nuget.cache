@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z8VEqQn7xzAqkrNSbByCaIdoYt6eMHdX8q9Z2AJEbJXomoDlKyKcHZwjk5KEnjDs/WGFEpwRCdUlV2/uN2fX9Q==",
+  "dgSpecHash": "mwt+vyi5BGSLKL3klWk74AHSqGX6g/wqissdFPSVUn0+FyICfDUfLOvK008qHP1rUSt9vE+1zEscDjGOC8w9XQ==",
   "success": true,
   "projectFilePath": "/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Entities/Ecommerce.Entities.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,11 @@
     "/Users/sanan/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/sanan/.nuget/packages/microsoft.identitymodel.abstractions/7.0.3/microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "/Users/sanan/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.0.3/microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "/Users/sanan/.nuget/packages/microsoft.identitymodel.logging/7.0.3/microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "/Users/sanan/.nuget/packages/microsoft.identitymodel.tokens/7.0.3/microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "/Users/sanan/.nuget/packages/system.identitymodel.tokens.jwt/7.0.3/system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
     "/Users/sanan/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
   ],

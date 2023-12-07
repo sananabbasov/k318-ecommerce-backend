@@ -9,5 +9,5 @@ namespace Ecommerce.DataAccess.Abstract;
 
 public interface IUserDal : IRepositoryBase<User>
 {
-    
+    User GetUserByEmail(string email);
 }

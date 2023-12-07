@@ -110,3 +110,8 @@
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/Ecommerce.Core.dll
 /Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/Ecommerce.Core.pdb
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/sanan/Desktop/Projects/Compar Academy/K318/Web/Ecommerce/Ecommerce.Testing/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll

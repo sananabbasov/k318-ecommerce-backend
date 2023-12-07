@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Ecommerce.Business.Abstract;
+using Ecommerce.Core.Entities.Concrete;
 using Ecommerce.Core.Utilities.Business;
 using Ecommerce.Core.Utilities.Results.Abstract;
 using Ecommerce.Core.Utilities.Results.Concrete.ErrorResults;
 using Ecommerce.Core.Utilities.Results.Concrete.SuccessResults;
 using Ecommerce.Core.Utilities.Security.Hashing;
+using Ecommerce.Core.Utilities.Security.Jwt;
 using Ecommerce.DataAccess.Abstract;
 using Ecommerce.Entities.Commands;
 using Ecommerce.Entities.Concrete;
@@ -32,18 +34,26 @@ public class AuthManager : IAuthService
 
     public IDataResult<LoginUserDto> Login(LoginDto loginDto)
     {
-        var userToCheck = BusinessRule.Run(
-            CheckIsUserActive(loginDto),
-            CheckUserPassword(loginDto)
-            );
+        // var userToCheck = BusinessRule.Run(
+        //     CheckIsUserActive(loginDto),
+        //     CheckUserPassword(loginDto)
+        //     );
 
-        if (!userToCheck.Success)
-            return new ErrorDataResult<LoginUserDto>(null);
+        // if (!userToCheck.Success)
+        //     return new ErrorDataResult<LoginUserDto>(null);
 
+        var user = _userDal.GetUserByEmail(loginDto.Email);
 
-
-
-        return new SuccessDataResult<LoginUserDto>(null);
+        var response = new LoginUserDto()
+        {
+            Email = user.Email,
+            FirstName = user.FirstName,
+            LastName = user.LastName,
+            // Roles = user.UserRoles.Select(x => x.Role).Select(x => x.RoleName).ToArray(),
+            Roles = new string[]{"Admin","User"},
+            Token = Token.CreateToken(user, new string[]{"Admin","User"})
+        };
+        return new SuccessDataResult<LoginUserDto>(response);
     }
 
     public IResult Register(RegisterDto registerDto)

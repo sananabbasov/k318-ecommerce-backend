@@ -12,12 +12,12 @@ namespace Ecommerce.Business.Consumers;
 
 public class SendEmailConsumer : IConsumer<SendEmailCommand>
 {
-    private readonly IMailSender _mailSender;
+    // private readonly IMailSender _mailSender;
 
-    public SendEmailConsumer(IMailSender mailSender)
-    {
-        _mailSender = mailSender;
-    }
+    // public SendEmailConsumer(IMailSender mailSender)
+    // {
+    //     _mailSender = mailSender;
+    // }
 
     public async Task Consume(ConsumeContext<SendEmailCommand> context)
     {

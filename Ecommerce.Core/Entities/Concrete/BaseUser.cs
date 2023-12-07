@@ -17,4 +17,5 @@ public class BaseUser
     public int LoginAttempt { get; set; }
     public DateTime DeactiveTime { get; set; }
     public bool IsDeactive { get; set; }
+    public ICollection<UserRole> UserRoles { get; set; }
 }
